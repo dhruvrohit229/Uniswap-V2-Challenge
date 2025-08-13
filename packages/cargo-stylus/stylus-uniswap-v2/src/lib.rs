@@ -35,7 +35,7 @@ impl UniswapV2Pair {
         Ok(())
     }
 
-    pub fn mint(&mut self, to: Address) -> Result<U256, Vec<u8>> {
+    pub fn mint_to_dhruv_rohit_229(&mut self, to: Address) -> Result<U256, Vec<u8>> {
         // Check if the address is valid
         if to == Address::ZERO {
             return Err("Cannot mint to the zero address".into());
